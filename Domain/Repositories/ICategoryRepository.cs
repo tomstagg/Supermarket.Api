@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Supermarket.API.Domain.Repositories
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository
     {
         Task<IEnumerable<Category>> ListAsync();
     }
