@@ -9,5 +9,6 @@ namespace Supermarket.API.Domain.Services
     public interface ICategoryService
     {
         Task<IEnumerable<Category>> ListAsync();
+        Task<SaveCategoryResponse> SaveAsync(Category category);
     }
 }
